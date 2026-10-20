@@ -1,0 +1,43 @@
+{
+  "format_version": "1.20",
+  "particle_effect": {
+    "description": {
+      "identifier": "minecraft:totem_particles",
+      "basic_render_parameters": {
+        "material": "particle",
+        "texture": "textures/particle/particles"
+      }
+    },
+    "curves": [
+      {
+        "type": "minecraft:particle_motion",
+        "input": {
+          "type": "minecraft:curve",
+          "nodes": [
+            {
+              "time": 0.0,
+              "value": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0
+            }
+          ]
+        },
+        "output": {
+          "type": "minecraft:curve",
+          "nodes": [
+            {
+              "time": 0.0,
+              "value": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 1.0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

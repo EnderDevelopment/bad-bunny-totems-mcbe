@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20",
+  "events": {
+    "minecraft:use_totem": {
+      "add": {
+        "component_groups": [
+          "minecraft:totem_activation"
+        ]
+      }
+    }
+  },
+  "component_groups": {
+    "minecraft:totem_activation": {
+      "minecraft:particle_emitter": {
+        "particle_effect": "minecraft:totem_particles",
+        "spawn_rate": 10,
+        "max_particles": 100
+      },
+      "minecraft:sound_emitter": {
+        "sound": "totem_activation",
+        "play_once": true
+      }
+    }
+  }
+}

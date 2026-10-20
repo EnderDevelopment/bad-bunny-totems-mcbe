@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bad Bunny Totems",
+    "description": "A Minecraft Bedrock Edition add-on that modifies the totem of undying to feature Bad Bunny's face with 4 different pixel art designs.",
+    "uuid": "00000000-0000-0000-0000-000000000000",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "00000000-0000-0000-0000-000000000001",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "data",
+      "uuid": "00000000-0000-0000-0000-000000000002",
+      "version": [1, 0, 0]
+    }
+  ]
+}

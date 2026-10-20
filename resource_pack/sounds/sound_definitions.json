@@ -1,0 +1,12 @@
+{
+  "totem_activation": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "totem_activation",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  }
+}
